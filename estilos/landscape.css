@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 270px) and (max-width: 600Px) and (orientation: landscape){
+    body{
+        background-image: url(../fundo/pexels-pixabay-41006.jpg);
+        background-size: cover;
+    }
+    nav.menu-lateral > i{
+        display: none;
+    }
+    nav.menu-lateral{
+        display: inline-flex;  
+        background-color: red;  
+        width: 50px;
+        height: 50px;
+    }
+    nav.menu-lateral > a> span.material-icons{
+       display: none;  
+       
+    }
+    nav.menu-lateral > a> span.txt{
+        color: blue;
+    }
+    nav > a{
+        width: 100vh;
+        height: 10vh;
+    }
+}
